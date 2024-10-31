@@ -1,0 +1,172 @@
+@font-face {
+   font-family: Santion_Light;
+   src: url(fonts/Sansation_Light.woff);
+}
+@font-face {
+   font-family: HoneyScript-Light;
+   src: url(fonts/HoneyScript-Light.ttf);
+}
+@font-face {
+   font-family: LearningCurve;
+   src: url(fonts/LearningCurve.ttf);
+}
+#postitz_lrg {
+width: 300px !important;
+height: 300px !important;
+padding: 9px;
+border: thin solid #e8e8e8;
+ 
+box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.45);
+}
+#postitz_med { 
+width: 280px;
+height: 170px;
+padding: 9px;
+border: thin solid #e8e8e8;
+ 
+box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.45);
+}
+#postitz_sml {
+font-size: 87.5%;
+line-height: 1;
+width: 150px;
+height: 150px;
+padding: 9px;
+border: thin solid #e8e8e8;
+ 
+box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.45);
+}
+.postitz_ocd {
+margin: 5px;
+transform: rotate(0);
+}
+.postitz_off {
+margin: 5px;
+transform: rotate(1.5829deg);
+}
+#postitz_lrg:before {
+content: " ";
+height: 45px;
+width: 15px;
+display: block;
+background: rgba(  255, 255, 255, .95);
+position: absolute;
+left: 300px;
+top: 0;
+box-shadow: 0 7px 1px 0px rgba( 255, 255, 255, .45);
+}
+#postitz_med:before {
+content: " ";
+height: 38px;
+width: 15px;
+display: block;
+background: rgba(  255, 255, 255, .95);
+position: absolute;
+left: 280px;
+top: 0;
+box-shadow: 0 7px 1px 0px rgba( 255, 255, 255, .45);
+}
+#postitz_sml:before {
+content: " ";
+height: 38px;
+width: 15px;
+display: block;
+background: rgba(  255, 255, 255, .95);
+position: absolute;
+left: 150px;
+top: 0;
+box-shadow: 0 7px 1px 0px rgba( 255, 255, 255, .45);
+} 
+.yellow {
+background: #fafaaa;
+}
+.white {
+background: white;
+}
+.pink {
+background: pink;
+}
+.blue {
+background: cyan;
+}
+.red {
+background: #eeaa66;
+}
+.postitz-text .Honey {
+font-family: 'HoneyScript-Light', cursive;
+color: midnightblue;
+}
+.postitz-text .Sansation {
+font-family: 'Santion_Light', cursive;
+color: midnightblue;
+}
+.postitz-text .Curve {
+font-family: 'LearningCurve', cursive;
+color: midnightblue;
+}
+.postitz-text .SanSerif {
+font-family: sans-serif;
+color: midnightblue;
+}
+.postitz-text .Courier {
+font-family: "Courier New", Courier, monospace;
+line-height: 1.2;
+color: midnightblue;
+}
+
+
+
+.postit {
+color: blue;
+overflow: hidden;
+}
+.postbox .hndle:hover {
+    cursor:default;
+}
+#postitz_lrg .SanSerif {
+font-size: 1.2128em;
+}
+#postitz_med .SanSerif {
+font-size: 100%;
+line-height: 1;
+}
+#postitz_sml .SanSerif {
+font-size: 90%;
+}
+#postitz_lrg .Courier {
+font-size: 1.2128em;
+}
+#postitz_med .Courier {
+font-size: 100%;
+}
+#postitz_sml .Courier {
+font-size: 90%;
+}
+#postitz_lrg .Curve {
+font-size: 2.222em;
+line-height: .8385em;
+}
+#postitz_med .Curve {
+font-size: 100%;
+}
+#postitz_sml .Curve {
+font-size: 90%;
+}
+#postitz_lrg .Sansation {
+font-size: 1.2128em;
+}
+#postitz_med .Sansation {
+font-size: 100%;
+}
+#postitz_sml .Sansation {
+font-size: 90%;
+}
+#postitz_lrg .Honey {
+font-size: 1.825em;
+}
+#postitz_med .Honey {
+font-size: 140%;
+}
+#postitz_sml .Honey {
+font-size: 148%;
+}
